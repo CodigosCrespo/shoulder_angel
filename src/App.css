@@ -1,0 +1,81 @@
+body {
+  background-color: #666;
+}
+
+.board h1 {
+  font-size: 3em;
+}
+
+.board h1, .board h2, .board h3, .comment-form h2, .reply-form p {
+  text-align: center;
+}
+
+.board {
+  color: white;
+  margin: 3px auto;
+  width: 90vw;
+  border: 2px solid black;
+  overflow: scroll;
+  background: url(http://i.giphy.com/lMiHCvEw77fcA.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.board-text {
+  height: 50%;
+}
+
+.board-text, .board-replies, .reply-form, .add-form {
+  width: 80vw;
+  margin: 10px auto;
+  padding: 0 10px;
+  /*border: solid blue 1px;*/
+}
+
+.flex-wrapper, .radio {
+  display: flex;
+  justify-content: space-around;
+}
+
+.angel-shoulder, .devil-shoulder {
+  width: 45%;
+  height: 30vh;
+  overflow: scroll;
+}
+
+.angel-shoulder li, .devil-shoulder li {
+  margin: 10px;
+  padding: 5px;
+}
+
+.angel-shoulder p, .devil-shoulder p {
+  text-align: center;
+  padding: 0 4px;
+}
+
+.angel-shoulder p {
+  color: gold;
+}
+
+.devil-shoulder p {
+  color: purple;
+}
+
+.angel-shoulder, .devil-shoulder {
+  background-color: rgba(6,6,6,.6);
+}
+
+.board-text-button {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 0 15px 0;
+}
+
+textarea {
+  width: 100%;
+  height: 5vh;
+  overflow: scroll;
+  margin-top: 5px;
+}
